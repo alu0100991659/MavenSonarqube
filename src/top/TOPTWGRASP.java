@@ -5,8 +5,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 
+/*
+ * Últimas dos vulnerabilidades corregidas. Añadida la keyword "final" a la constante NO_EVALUATED
+ * para evitar que pueda ser sobrescrita.
+ */
+
 public class TOPTWGRASP {
- public static double NO_EVALUATED = -1.0;
+ public static final double NO_EVALUATED = -1.0;
     
     private TOPTWSolution solution;
     private int solutionTime;

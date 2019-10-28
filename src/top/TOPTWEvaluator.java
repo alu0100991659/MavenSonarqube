@@ -1,7 +1,12 @@
 package top;
 
+/*
+ * Primeras dos vulnerabilidades corregidas. Añadida la keyword "final" a la constante NO_EVALUATED
+ * para evitar que pueda ser sobrescrita.
+ */ 
+
 public class TOPTWEvaluator {
-    public static double NO_EVALUATED = -1.0;
+    public static final double NO_EVALUATED = -1.0;
 
     public void evaluate(TOPTWSolution solution) {
         /*CumulativeCVRP problem = solution.getProblem();
